@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>MyGameLogin</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style-login.css">
+    </head>
+
+    <body>
+        <header>
+
+      <div class="container">
+        <h1 class="titulo">My Game Login</h1>
+      </div>
+
+    </header>
+
+         <main>
+            <section class="container">
+                <ul id="mensagens-erro"></ul>
+                <form id="form-login">
+                <h2 class ="login">Login</h2>
+                <label class ="user" for="user">User</label>
+                <input type="text" name="user" id="login-user"
+                placeholder="User" required>
+                <label class ="passworld" for="passworld">Passworld</label>
+                <input type="text" name="passworld" id="passworld-user"
+                placeholder="********" required>
+                <div class="fieldoptions">
+
+                    <button id="fazer-login" class="botao-bto-fazerlogin"onclick="abreLinkLogin();">Login</button>
+                    <button id="fazer-registro" class="botao-bto-fazer-registro"onclick="abreLinkRegister();">Sing Up</button>
+                    <button id="voltar-menu" class="botao-bto-voltar-menu"onclick="abreLinkMenu();">Menu</button>
+                    
+                </div>
+                
+            </section>
+
+        </main>
+    </body>
+
+    <script src="js/login.js"></script>
+
+</html>
+
