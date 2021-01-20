@@ -18,12 +18,11 @@ header .container:before {
 }
 
 header h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   display:inline-block;
   vertical-align: middle;
-  margin-left: 5%;
+  margin-left: 25%;
   margin-bottom: 1em;
-  margin-top: 0.8em;
 }
 
 section {
@@ -38,7 +37,7 @@ section h2 {
   height: 10%;
   display: block;
   margin-bottom: 0.5em;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 
 .login {
@@ -49,6 +48,11 @@ section h2 {
   width: 15%;
   height: 100%;
   margin: 0 auto;
+}
+
+.user-name, .email {
+  margin-bottom: 5px;
+  margin-left: 38%;
 }
 
 .user {
@@ -67,7 +71,8 @@ label {
   margin-top: 0.2em;
 }
 
-input[type=text]{
+input[type=text],
+input[type=email] {
     width: 94%;
     padding-left: 10px;
     height: 30px;
@@ -78,7 +83,7 @@ input[type=text]{
 }
 
  button {
-  padding: 0.5em 2em;
+  padding: 0.5em 2.3em;
   border: 0;
   border-bottom: 2px solid;
   font-size: 15px;
@@ -89,25 +94,12 @@ input[type=text]{
   background-color: #0c8cd3;
   border-color: #04324c;
   clear: both;
-  margin: 5px 0px;
+  margin: 5px 2px;
 }
 
-.botao-bto-fazerlogin {
-  width: 100%;
+.botao-bto-fazer-registro {
+  width: 96%;
   display: block;
+  margin-top: 5%;
 }
 
-.fazer-registro {
-  padding: 0.5em 2em;
-  border: 0;
-  border-bottom: 2px solid;
-  font-size: 15px;
-  cursor: pointer;
-  margin: 0;
-  margin-top: 1px;
-  color: #fff;
-  background-color: #0c8cd3;
-  border-color: #04324c;
-  clear: both;
-  margin: 5px 0px;
-}
